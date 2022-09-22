@@ -1,0 +1,208 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: 2rem 5rem;
+}
+
+
+
+h1{
+    font-size: 4rem;
+    color: #f5c518;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 6rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: white;
+    padding: 10rem 0 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header  {
+    background-color: #f5c518;
+}
+
+footer {
+    background-color: #f5c518;
+    margin-top: 10rem;
+}
+
+#author {
+    text-align: left;
+    font-style: italic;
+    padding-top: 3rem;
+    color: #f5c518;
+}
+
+#post-detail-image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5{
+    color: white;
+    text-align: left;
+    font-style: italic;
+    color: #f5c518;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.comment {
+    color: #9f0603;
+    margin: 3rem 0;
+}
+
+.form {
+    color: white;
+}
+
+textarea {
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    resize: none;
+    box-shadow: 0 0 0 3px #000;
+    border: 5px solid transparent;
+}
+
+#button1 {
+    background-color: #f5c518;
+    border-radius: 5px;
+    padding: 2px 4px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#button1:hover {
+    background-color: #9f0603;;
+}
+
+.hashtag:hover {
+    background-color: #9f0603;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+#title-post {
+    text-align: left;
+}
+
+img {
+    margin: auto;
+}
+
+#profile-image {
+    margin-top: 4rem;
+    height: 900px;
+    object-fit: cover;
+}
+
+.user-profile-pic {
+    border-radius: 50%;
+    margin-top: 6rem;
+}
+
+.subheading-profile {
+    margin-top: 5rem;
+}
+
+
+#reference-link {
+    color:blue
+}
+
+.label-text {
+    color: white;
+}
+
+.login-sub {
+    color: #9f0603;
+    padding: 2.5rem 0;
+}
+
+
+
+#reference-link:hover {
+    background-color: #9f0603;
+    color:#f5c518;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+    margin: 10px;  
+    clear: left; /* clears any left floats so before so this should start on new line */
+}
+
+input {
+    border-radius: 5px;
+    width: 10em;
+}
+
+input[type="button"] {
+    margin-top: 10px;
+} 
+
+
+#log {
+    background-color: #f5c518;
+}
+
+@media (min-width: 770px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 33% 33% 34%;
+        gap: 2rem;
+        margin: 2rem 5rem;
+    }
+    #title-post {
+        text-align: center;
+    }
+
+    h3{
+        padding: 0 0rem 1rem;
+    }
+}
+
+@media (min-width: 770px) {
+    .wrapper2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 2rem;
+        margin: 2rem 5rem;
+    }
+
+    #profile-image {
+        border-radius: 50%;
+        width: 400px;
+        height: 420px;
+    }
+
+    .profile {
+        align-self: center;
+    }
+}
+

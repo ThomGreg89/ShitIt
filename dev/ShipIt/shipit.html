@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShipIt</title>
+    <link rel="stylesheet" href="assets/CSS/normalize.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    <div class="containter">
+        <header class="flex relative justify-around flex-col md:flex-row">
+            <a href="shipit.html"><h2 class="text-3xl md:text-2xl font-semibold md:font-bold self-center">ShipIt</h2></a>
+            <nav class="flex flex-col md:flex-row md:space-x-10 w-full p-4 md:w-auto md:p-0">
+                <a href="login.html" class="p-3 hover:bg-blue-100">Login</a>
+                <a href="post.html" class="p-3 hover:bg-blue-100">Posts</a>
+                <a href="user.html" class="p-3 hover:bg-blue-100">Users</a>
+                <a href="profile.html" class="p-3 hover:bg-blue-100">Profile</a>
+            </nav>
+        </header>
+
+        <!--Top Posts Sections and used CSS Grid-->
+        <section>
+            <h1>Top Posts</h1>
+            <div class="wrapper">
+                <div>
+                    <h3>Shang-Chi</h3>
+                    <img src="assets/IMG/Shang-Chi.jpg" id="shang">
+                    <p>Director: Destin Daniel Cretton</p>
+                    <p><a href="https://www.imdb.com/title/tt9376612/?ref_=hm_fanfav_tt_t_1_pd_fp1" target="_blank" class="hashtag">#FanFavorite</a></p>
+                    <a href="post.html">
+                        <input type="button" id="button1" value="Click for more info">
+                    </a>
+                </div>
+                <div>
+                    <h3>The Suicide Squad</h3>
+                    <img src="assets/IMG/Suicide Squad.jpg">
+                    <p>Director: James Gunn</p>
+                    <p><a href="https://www.imdb.com/title/tt6334354/?ref_=hm_fanfav_tt_i_2_pd_fp1" target="_blank" class="hashtag">#ActionPacked</a></p>
+                </div>
+                <div>
+                    <h3>Free Guy</h3>
+                    <img src="assets/IMG/Free Guy.jpg" id="freeguy">
+                    <p>Director: Shawn Levy</p>
+                    <p><a href="https://www.imdb.com/title/tt6264654/?ref_=hm_inth_tt_i_2" target="_blank" class="hashtag"></a>#MustSee</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Add new posts sections and style with CSS Grid-->
+        <section>
+            <h1>New Posts</h1>
+            <div class="wrapper">
+                <div>
+                    <h3>Spider-Man</h3>
+                    <img src="assets/IMG/Spider-Man NWH.jpg">
+                    <p>Director: Jon Watts</p>
+                    <p><a href="https://www.imdb.com/title/tt10872600/" target="_blank" class="hover">#ComingSoon</a></p>
+                </div>
+                <div>
+                    <h3>Venom 2</h3>
+                    <img src="assets/IMG/Venom.jpg">
+                    <p>Director: Andy Serkis</p>
+                    <p><a href="https://www.imdb.com/title/tt7097896/" target="_blank" class="hover">#Carnage</a></p>
+                </div>
+                <div>
+                    <h3>Eternals</h3>
+                    <img src="assets/IMG/Eternals.jpg">
+                    <p>Director: Chloé Zhao</p>
+                    <p><a href="https://www.imdb.com/title/tt9032400/" target="_blank" class="hover">#Immortals</a></p>
+                </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <h4>Copyright 2021 @Gregory Thom</h4>
+    </footer>
+    </div>
+</body>
+</html>

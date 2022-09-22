@@ -1,0 +1,47 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+    margin: 50px;
+}
+
+input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: right;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  #contact {
+    background-color: rgb(230, 230, 230);
+    width: 50%;
+    border-style:double;
+  }
+  
+  body{
+    background-color: rgb(105, 218, 219);
+    text-align: center;
+  }
+  
+  h3, h4 {
+    padding-left: 10px;
+  }
+
+  form{
+    margin: 0 auto;
+
+  }
+
+  button {
+      background-color: rgb(21, 151, 229);
+  }

@@ -1,0 +1,74 @@
+header {
+    background-color: #f2d197;
+}
+
+body {
+    color: #415769;
+    background-color: #f1e8d8;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+h3{
+    font-family: Helvetica Neue, Helvetica;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #6c6862;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#profile {
+    height: 300px;
+    width: 80%;
+    object-fit: cover;
+    object-position: top;
+}
+
+@media (min-width: 768px) {
+    #profile {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+#button {
+    background-color:#d5d5d5;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#button:hover {
+    background-color: #929292;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/*Change background color for project items when hover over*/
+.hoverbg:hover {
+    background-color: #f2d197;
+}
+
+.hoverbg {
+    margin: 40px;
+    color: #6c6862;
+}
+
+footer {
+    background-color: #415769;
+    padding: 10px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShipIt Post Detail</title>
+    <link rel="stylesheet" href="assets/CSS/normalize.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="flex relative justify-around flex-col md:flex-row">
+            <a href="shipit.html"><h2 class="text-3xl md:text-2xl font-semibold md:font-bold self-center">ShipIt</h2></a>
+            <nav class="flex flex-col md:flex-row md:space-x-10 w-full p-4 md:w-auto md:p-0">
+                <a href="login.html" class="p-3 hover:bg-blue-100">Login</a>
+                <a href="post.html" class="p-3 hover:bg-blue-100">Posts</a>
+                <a href="user.html" class="p-3 hover:bg-blue-100">Users</a>
+                <a href="profile.html" class="p-3 hover:bg-blue-100">Profile</a>
+            </nav>
+        </header>
+
+        <div>
+            <img src="assets/IMG/shang-chi-title-card.jpeg" id="post-detail-image">
+            <p id="author">by Gregory Thom</p>
+            <p id="title-post">Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after drawn into the Ten Rings organization - the same terror group who's behind Tony Stark's kidnapping in Iron Man. In the comics, Shang-Chi is a master of kung-fu, similarly growing up as the heir to the 10 Rings. His father, Fu Manchu, is regarded as a problematic portrayal of xenophobic tropes, so the MCU is adjusting Shang-Chi's origins so that the longtime Iron Man villain, the Mandarin, is his father instead. Even though he often works alone, Shang-Chi goes on to fight alongside Captain America, Daredevil, and the X-Men.</p>
+            <p><a href="https://www.metacritic.com/movie/shang-chi-and-the-legend-of-the-ten-rings" target="_blank" id="reference-link">Click here for additional reference and reviews</a></p>
+        </div>
+
+        <section>
+            <h3 class="comment">Comments</h3>
+            <div>
+                <h5>Natasha Alvar</h5>
+                <p class="comments">In the end, Shang-Chi and the Legend of the Ten Rings comes across as more cookie-cutter and generic because I have seen better Asian films. It's a competent film, but don't expect anything more than a Marvel blockbuster.</p>
+            </div>
+            <div>
+                <h5>Sarah Ward</h5>
+                <p class="comments">Flits between offering up a lively picture that strives to carve out its own space in the series, and simply serving up more of the usual Marvel template but in enticing packaging.</p>
+            </div>
+            <div>
+                <h5>Steven Prokopy</h5>
+                <p class="comments">This is a terrific, entry-level work that delivers on far more visceral action than we're used to from these films.</p>
+            </div>
+
+            <div>
+                <h3 class="comment">Add a Comment</h3>
+            </div>
+        </section>
+
+        <form>
+            <label class="form" for="name">Your Name:</label><br><input type="text" id="name" required placeholder="Your Name"><br><br>
+            <label class="form" for="feedback">Comment:</label><br><textarea rows="7" cols="50" id="feedback" placeholder="Your comment goes here."></textarea>
+        </form>
+
+
+
+
+        <footer id="footer">
+            <h4>Copyright 2021 @Gregory Thom</h4>
+        </footer>
+    </div>
+</body>
+</html>

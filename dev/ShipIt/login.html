@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="assets/CSS/normalize.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    <div class="containter">
+        <header class="flex relative justify-around flex-col md:flex-row">
+            <a href="shipit.html"><h2 class="text-3xl md:text-2xl font-semibold md:font-bold self-center">ShipIt</h2></a>
+            <nav class="flex flex-col md:flex-row md:space-x-10 w-full p-4 md:w-auto md:p-0">
+                <a href="login.html" class="p-3 hover:bg-blue-100">Login</a>
+                <a href="post.html" class="p-3 hover:bg-blue-100">Posts</a>
+                <a href="user.html" class="p-3 hover:bg-blue-100">Users</a>
+                <a href="profile.html" class="p-3 hover:bg-blue-100">Profile</a>
+            </nav>
+        </header>
+
+        <div id="login">
+            <h4 class="login-sub" id="heading">Welcome to ShipIt admin!</h4>
+            <form id="form1">
+                
+                <label class="label-text" for="uName">Username:</label>
+                <input type="text" id="uName" required placeholder="Enter Username">
+                <label class="label-text" for="uPassword">Password:</label>
+                <input type="password" id="uPassword" required placeholder="Enter Password">
+                <input type="button" id="log" value="Admin Login">
+            </form>
+        </div>
+
+        <div id="create">
+            <h4 class="login-sub" id="heading2">Sign Up</h4>
+            <form>
+                <label class="label-text" for="nName">Username:</label>
+                <input type="text" id="nName" required placeholder="Enter Username">
+                <label class="label-text" for="nPassword">Password:</label>
+                <input type="password" id="nPassword" required placeholder="Enter Password">
+                <input type="button" id="editLogin" value="Create New User">
+            </form>
+        </div>
+
+        <div id="newLogin">
+            <h4 class="login-sub" id="heading3">Please login with new information</h4>
+            <form id="remove">
+                <label class="label-text" for="username">Username:</label>
+                <input type="text" id="username" required placeholder="Enter Username">
+                <label class="label-text" for="password">Password:</label>
+                <input type="password" id="password" required placeholder="Enter Password">
+                <input type="button" id="loginButton" value="Login">
+            </form>
+            <p id="loginResult"></p>
+        </div>
+
+
+
+
+
+        <footer id="footer">
+            <h4>Copyright 2021 @Gregory Thom</h4>
+        </footer>
+
+        <script src="JS/script.js" defer></script>
+    </div>
+    
+</body>
+</html>
